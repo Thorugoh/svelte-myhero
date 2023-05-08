@@ -21,10 +21,10 @@
 	</button>
 
 	<div class="counter-viewport">
-		<div class="counter-digits" style="transform: translate(0, {100 * offset}%)">
-			<strong class="hidden" aria-hidden="true">{Math.floor($displayed_count + 1)}</strong>
-			<strong>{Math.floor($displayed_count)}</strong>
-		</div>
+		<!-- <div class="counter-digits" style="transform: translate(0, {100 * offset}%)"> -->
+			<!-- <strong class="hidden" aria-hidden="true">{Math.floor($displayed_count + 1)}</strong> -->
+			<strong>{Math.floor(count)}</strong>
+		<!-- </div> -->
 	</div>
 
 	<button on:click={() => (count += 1)} aria-label="Increase the counter by one">
